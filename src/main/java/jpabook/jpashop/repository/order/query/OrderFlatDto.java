@@ -15,17 +15,17 @@ public class OrderFlatDto {
     private OrderStatus orderStatus;
     private Address address;
 
-    private String itemNames;
+    private String itemName;
     private int orderPrice;
     private int count;
 
-    public OrderFlatDto(Long orderId, String name, LocalDateTime orderDate, OrderStatus orderStatus, Address address, String itemNames, int orderPrice, int count) {
+    public OrderFlatDto(Long orderId, String name, LocalDateTime orderDate, OrderStatus orderStatus, Address address, String itemName, int orderPrice, int count) {
         this.orderId = orderId;
         this.name = name;
         this.orderDate = orderDate;
         this.orderStatus = orderStatus;
         this.address = address;
-        this.itemNames = itemNames;
+        this.itemName = itemName;
         this.orderPrice = orderPrice;
         this.count = count;
     }
