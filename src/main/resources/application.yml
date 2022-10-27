@@ -12,6 +12,7 @@ spring:
       hibernate:
 #        show_sql: true 시스템아웃 로그만 찍히기 때문에 주석.
         format_sql: true
+        default_batch_fetch_size: 100
 
 logging:
   level:
